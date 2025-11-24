@@ -22,8 +22,9 @@ public class DisableOutOfBounds : MonoBehaviour
                 _gameManager.isGameOver = true;
                 Time.timeScale = 0f;
                 _gameManager.SetGameOverUI();
+                Destroy(gameObject);
             }
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
         else if (transform.position.x > -_limitPosX + 2)
         {

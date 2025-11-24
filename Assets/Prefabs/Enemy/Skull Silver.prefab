@@ -517,8 +517,6 @@ MonoBehaviour:
   _currentHealth: 0
   _startHealth: 0
   _moveSpeed: 6
-  _lifeTime: 7.5
-  _limitPosX: 0
 --- !u!54 &-2774351293717606101
 Rigidbody:
   m_ObjectHideFlags: 0
